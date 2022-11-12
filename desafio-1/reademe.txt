@@ -1,0 +1,2 @@
+Para alcançar o resultado proposto foi adicionado na section nav-simple um elemento dropdown e dentro dele as categiorias "novos" e "semi-novos".
+Feito isso os outros elementos da barra de menu foram resposicionados. 

@@ -1,0 +1,1 @@
+Página criada a partir do layout disponivel no figma. 

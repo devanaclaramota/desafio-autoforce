@@ -1,6 +1,4 @@
-*{
-    font-family: 'Open Sans', sans-serif;
-}
+
 header{
     
     background-color: white; 
@@ -78,7 +76,8 @@ color: #666666;
     padding-left: 40px;
     padding-bottom: 30px;
     font-family: 'Open Sans', sans-serif;
-    
+    font-size: 32px;
+    font-weight:700;
 }
 .banner-top{
     padding:40px ;

@@ -1,0 +1,3 @@
+Foi usado nesse caso duas maneiras diferentes para atingir o resultado.
+Para telas menores usei uma função que ja estava escrita no código para dar a chamada externa do whatsapp.
+já para desktop usei html, levando o usuário ate a area externa da aplicação atraves de um link blank.
