@@ -1,0 +1,2 @@
+Nessa situação foi criada uma função em js que quando clicado o botão fixo do whattsapp na tela abre-se um menu drop com as opções para que o usuário possa escolher qual canal de atendimento prefere.
+E para isso a function whattsapp(img) deve ser substituida pela nova função criada openDrop.

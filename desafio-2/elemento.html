@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>elemento </title>
+    <style>
+       
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="showcase__col-whatsapp-box col-md-6 col-lg-8">
+                <div class="showcase-new__whatsapp-box" data-versions="[]"
+                    data-link="https://api.whatsapp.com/send?phone=5511973860742&amp;text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20este%20ve%C3%ADculo.">
+                    <div>
+                        <div class="cta-box cta-box--horizontal cta-box--whatsapp">
+                            <div class="cta-box__phrase"><span>Fale agora mesmo com um especialista e tire todas as suas
+                                    dúvidas</span></div>
+                            <div class="cta-box__button-container"><button id="new-vehicles-showcase_cta-box-button"
+                                    class="btn button button--large button--whatsapp"><i
+                                        class="icon icon-whatsapp"></i>Negocie pelo WhatsApp</button></div>
+                        </div>
+                        <div class="modal micromodal-slide" id="new-vehicles-showcase_modal-whatsapp-box" aria-hidden="true"
+                            novalidate="true">
+                            <div class="modal__overlay" tabindex="-1" data-micromodal-close="true">
+                                <div class="position-relative"><i
+                                        class="modal__close modal__overlay-close--form icon icon-close"
+                                        data-micromodal-close="true"></i>
+                                    <div>
+                                        <form id="new-vehicles-showcase_modal-whatsapp-box"
+                                            class="form-modal form-modal--whatsapp" novalidate="true">
+                                            <div class="form-message-overlay ">
+                                                <div
+                                                    class="form-message-overlay__content form-message-overlay__content--success">
+                                                    <div class="form-message-overlay__icon"><i
+                                                            class="icon icon-check-mark"></i></div>
+                                                    <div class="form-message-overlay__top-message">Solicitação realizada com
+                                                        sucesso!</div>
+                                                    <div class="form-message-overlay__bottom-message">Em alguns instantes um
+                                                        de nossos consultores entrará em contato com você.</div><a href="#"
+                                                        class="form-message-overlay__close-button">Fechar</a>
+                                                </div>
+                                            </div>
+                                            <header class="form-modal__header">Fale pelo WhatsApp</header>
+                                            <div class="form-modal__body">
+                                                <header>Preencha o formulário abaixo e converse agora com um consultor:
+                                                </header>
+
+
+
+
+                                                    <fieldset>
+
+
+
+
+                                                        <div class="form-group"><input type="text" placeholder="Nome:"
+                                                                name="name" class="form-control" maxlength="80"
+                                                                required="" data-bouncer-target="#invalid-name">
+                                                            <div id="invalid-name" class="invalid-feedback"></div>
+                                                        </div>
+
+
+<hr>
+
+
+
+                                                        <div class="form-group"><input type="email"
+                                                                placeholder="E-mail:" name="email" class="form-control"
+                                                                maxlength="80" required=""
+                                                                data-bouncer-target="#invalid-email">
+                                                            <div id="invalid-email" class="invalid-feedback"></div>
+                                                        </div>
+
+
+<hr>
+
+
+                                                        
+                                                        <div class="form-group"><input type="phone"
+                                                                placeholder="Telefone/WhatsApp:" name="phone"
+                                                                class="form-control" required=""
+                                                                data-bouncer-target="#invalid-phone">
+                                                            <div id="invalid-phone" class="invalid-feedback"></div>
+                                                        </div>
+                                                        
+                                                        <hr>
+                                                       
+                                                            <div class="form-group">
+                                                                <legend class="conversion-form__control-label">Categoria do Veículo?</legend>
+                                                                <select name="select">
+                                                                    <option value="suv" selected>SUV</option>
+                                                                    <option value="seda">Sedã</option>
+                                                                    <option value="hatch">Hatch</option>
+                                                                    <option value="pickup">Pickup</option>
+                                                                  </select>
+                                                            </div>
+                                                        
+                                                   <hr>     
+                                                        
+                                                        
+                                                        <label class="control-label">Quero receber contato
+                                                            por:</label>
+                                                        <div class="form-check form-check-inline">
+                                                            <div
+                                                                class="custom-check custom-check--checkbox-whatsapp custom-check--checkbox">
+                                                                <input type="checkbox" class="checkable" value="true"
+                                                                    name="mailing">
+                                                                <div class="custom-check__check"></div>
+                                                                <label>E-mail</label>
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-check form-check-inline">
+                                                            <div
+                                                                class="custom-check custom-check--checkbox-whatsapp custom-check--checkbox">
+                                                                <input type="checkbox" class="checkable" value="true"
+                                                                    name="whatsapping">
+                                                                <div class="custom-check__check"></div>
+                                                                <label>Whatsapp</label>
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-check form-check-inline">
+                                                            <div
+                                                                class="custom-check custom-check--checkbox-whatsapp custom-check--checkbox">
+                                                                <input type="checkbox" class="checkable" value="true"
+                                                                    name="phoning">
+                                                                <div class="custom-check__check"></div>
+                                                                <label>Telefone</label>
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group contact-options"><input type="text"
+                                                                class="form-control d-none" name="contact-options"
+                                                                required="" placeholder="Opções de contato"
+                                                                data-bouncer-target="#invalid-contact-options">
+                                                            <div id="invalid-contact-options" class="invalid-feedback">
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="form-group">
+                                                            <legend class="conversion-form__control-label">Digite sua mensagem:</legend>
+                                                            <textarea placeholder="Mensagem" name="msg" id="msg" cols="30" rows="10"></textarea>
+                                                        </div>
+                                                    </fieldset>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                    <fieldset class="mt-0">
+                                                        <div
+                                                            class="form-check form-check-inline conversion-form__data-permissions-field dark">
+                                                            <div
+                                                                class="custom-check custom-check--checkbox-whatsapp custom-check--checkbox">
+                                                                <input type="checkbox" class="checkable" value="true"
+                                                                    name="dataPermissions">
+                                                                <div class="custom-check__check"></div><label>Eu li e
+                                                                    concordo com tudo</label>
+                                                            </div>
+                                                        </div>
+                                                    </fieldset>
+                                                    <fieldset class="consent-text mt-2">Ao informar meus dados, eu
+                                                        concordo com a <a
+                                                            href="/autoforce-ford/politica-de-privacidade">Política de
+                                                            privacidade</a>.</fieldset>
+                                                </div>
+                                                <footer><a class="clear-fields" href="#">Limpar campos</a><button
+                                                        class="btn form-modal__submit submit-button button button--whatsapp mb-0">Converse
+                                                        agora!</button></footer>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><small class="legal-text"> * Imagens meramente ilustrativas. Alguns itens apresentados poderão
+                        não estar disponíveis nas versões. Preços sugeridos e válidos até <b>30/11/2022</b>. Os preços
+                        poderão ser modificados sem aviso prévio. Consulte e confirme todas as informações com um de
+                        nossos vendedores. </small>
+                    <hr>
+                    <div class="social-sharer"><small class="share-label"> Compartilhe essa oferta: </small>
+                        <div class="sharethis-inline-share-buttons st-center st-has-labels  st-inline-share-buttons st-animated"
+                            id="st-1">
+                            <div class="st-btn st-first st-hide-label" data-network="facebook"
+                                style="display: inline-block;">
+                                <img alt="facebook sharing button"
+                                    src="https://platform-cdn.sharethis.com/img/facebook.svg">
+                                <span class="st-label"></span>
+                            </div>
+                            <div class="st-btn st-hide-label" data-network="twitter" style="display: inline-block;">
+                                <img alt="twitter sharing button"
+                                    src="https://platform-cdn.sharethis.com/img/twitter.svg">
+                                <span class="st-label"></span>
+                            </div>
+                            <div class="st-btn st-last" data-network="whatsapp" style="display: inline-block;">
+                                <img alt="whatsapp sharing button"
+                                    src="https://platform-cdn.sharethis.com/img/whatsapp.svg">
+                                <span class="st-label">1</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="showcase__col-form col-12 col-md-6 col-lg-4">
+                    <div class="showcase-new__conversion-form" data-clone-id="21413"
+                        data-link-privacy-policy="/autoforce-ford/politica-de-privacidade"
+                        data-units="[{&quot;label&quot;:&quot;AutoDealer São Paulo&quot;,&quot;value&quot;:&quot;escritorio-autoforce-natal&quot;},{&quot;label&quot;:&quot;AutoDealer Natal&quot;,&quot;value&quot;:&quot;matriz-e219f57d-4cd4-4afc-8d7f-f4def386d437&quot;}]"
+                        data-product="Territory 2022" data-channel="Site" data-category="Clone" data-brand="Ford"
+                        data-model-year="2022" data-show-cpf="0" data-show-units="false" data-show-price="true"
+                        data-show-last-name="false" data-contacts-with-dynamic-required="true"
+                        data-should-show-data-permissions="true"
+                        data-data-permissions-custom-text="Eu li e concordo com tudo" data-zflow="false"
+                        data-show-fandi="false" data-show-location-fields="false">
+                        <form class="conversion-form" id="conversion-from-new-model" novalidate="true">
+                            <div class="form-message-overlay ">
+                                <div class="form-message-overlay__content form-message-overlay__content--success">
+                                    <div class="form-message-overlay__icon"><i class="icon icon-check-mark"></i></div>
+                                    <div class="form-message-overlay__top-message">Solicitação realizada com sucesso!
+                                    </div>
+                                    <div class="form-message-overlay__bottom-message">Em alguns instantes um de nossos
+                                        consultores entrará em contato com você.</div><a href="#"
+                                        class="form-message-overlay__close-button">Fechar</a>
+                                </div>
+                            </div>
+
+
+
+                            <header>
+                                <div class="conversion-form__header-phrase">
+                                    <h2 class="form-conversion__title">Estou Interessado</h2>
+                                    <p>Preencha o formulário abaixo para receber o contato de um de nossos
+                                        especialistas:</p>
+                                </div>
+                                <div class="conversion-form__photo"><img
+                                        src="https://production.autoforce.com/uploads/version/profile_image/6443/model_middle_webp_comprar-titanium-1-5-turbo-ecoboost-at_7a53e55a17.png.webp"
+                                        alt="Titanium 1.5 Turbo EcoBoost AT">
+                                    </div>
+                                <p class="conversion-form__price">A partir de <span>R$ 214.700,00</span></p>
+                            </header>
+                            <div id="formulario" class="form-conversion__body">
+                                <fieldset>
+                                    <div class="form-group d-none">
+                                        <div>
+                                            <div class="choices" data-type="select-one" role="combobox" tabindex="0"
+                                                aria-autocomplete="list" aria-haspopup="true" aria-expanded="false"
+                                                dir="ltr">
+                                                <div class="choices__inner"><select name="selectedVariant"
+                                                        class="form-control choices__input is-hidden" tabindex="-1"
+                                                        aria-hidden="true" data-choice="active">
+                                                        <option value="titanium-1-5-turbo-ecoboost-at" selected="">
+                                                            Titanium 1.5 Turbo EcoBoost AT</option>
+                                                    </select>
+                                                    <div class="choices__list choices__list--single">
+                                                        <div class="choices__item choices__item--selectable"
+                                                            data-item="" data-id="1"
+                                                            data-value="titanium-1-5-turbo-ecoboost-at"
+                                                            aria-selected="true">
+                                                            Titanium 1.5 Turbo EcoBoost AT
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="choices__list choices__list--dropdown"
+                                                    aria-expanded="false"><input type="text"
+                                                        class="choices__input choices__input--cloned" autocomplete="off"
+                                                        autocapitalize="off" spellcheck="false" role="textbox"
+                                                        aria-autocomplete="list" placeholder="">
+                                                    <div class="choices__list" dir="ltr" role="listbox">
+                                                        <div class="choices__item choices__item--choice choices__item--selectable is-highlighted"
+                                                            data-select-text="" data-choice="" data-id="1"
+                                                            data-value="titanium-1-5-turbo-ecoboost-at"
+                                                            data-choice-selectable=""
+                                                            id="choices--selectedVariant-ye-item-choice-1" role="option"
+                                                            aria-selected="true">
+                                                            Titanium 1.5 Turbo EcoBoost AT
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group"><input type="text" class="form-control" name="name"
+                                            required="" placeholder="Nome" maxlength="80"
+                                            data-bouncer-target="#invalid-name">
+                                        <div id="invalid-name" class="invalid-feedback"></div>
+                                    </div>
+                                    <div class="form-group"><input type="email" class="form-control" name="email"
+                                            placeholder="E-mail" maxlength="80" data-bouncer-target="#invalid-email">
+                                        <div id="invalid-email" class="invalid-feedback"></div>
+                                    </div>
+                                    <div class="form-group"><input class="form-control" name="phone" type="phone"
+                                            data-bouncer-target="#invalid-phone" placeholder="Telefone/Whatsapp"
+                                            data-should-validate="false">
+                                        <div id="invalid-phone" class="invalid-feedback"></div>
+                               </div>
+                                </fieldset>
+                                <!--SELECT-->
+
+                                <fieldset>
+                                    <legend class="conversion-form__control-label">Categoria do Veículo?</legend>
+                                    <select name="select">
+                                        <option value="suv" selected>SUV</option>
+                                        <option value="seda">Sedã</option>
+                                        <option value="hatch">Hatch</option>
+                                        <option value="pickup">Pickup</option>
+                                      </select>
+                            
+                                </fieldset>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                <fieldset>
+                                    <legend class="conversion-form__control-label">Veículo na troca?</legend>
+                                    <div class="form-check form-check-inline">
+                                        <div class="custom-check custom-check--light custom-check--radio"><input
+                                                type="radio" class="checkable" value="sim" name="veiculo-na-troca">
+                                            <div class="custom-check__check"></div><label>Sim</label>
+                                        </div>
+                                        <div class="custom-check custom-check--light custom-check--radio"><input
+                                                type="radio" class="checkable" value="nao" name="veiculo-na-troca">
+                                            <div class="custom-check__check"></div><label>Não</label>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                                <fieldset>
+                                    <legend class="conversion-form__control-label">Quero receber contato por:</legend>
+                                    <div class="form-check form-check-inline">
+                                        <div class="custom-check custom-check--light custom-check--checkbox"><input
+                                                type="checkbox" class="checkable" value="true" name="mailing">
+                                            <div class="custom-check__check"></div><label>E-mail</label>
+                                        </div>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <div class="custom-check custom-check--light custom-check--checkbox"><input
+                                                type="checkbox" class="checkable" value="true" name="whatsapping">
+                                            <div class="custom-check__check"></div><label>Whatsapp</label>
+                                        </div>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <div class="custom-check custom-check--light custom-check--checkbox"><input
+                                                type="checkbox" class="checkable" value="true" name="phoning">
+                                            <div class="custom-check__check"></div><label>Telefone</label>
+                                        </div>
+                                    </div>
+                                    <div class="form-group contact-options"><input type="text"
+                                            class="form-control d-none" name="contact-options" required=""
+                                            placeholder="Opções de contato"
+                                            data-bouncer-target="#invalid-contact-options">
+                                        <div id="invalid-contact-options" class="invalid-feedback"></div>
+                                    </div>
+                                </fieldset> 
+
+<!--
+    text area
+
+-->                             
+<fieldset>
+    <legend class="conversion-form__control-label">Digite sua mensagem:</legend>
+    <textarea placeholder="Mensagem" name="msg" id="msg" cols="30" rows="10"></textarea>
+
+
+</fieldset>
+                              
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                <fieldset class="mt-0 mb-2">
+                                    <div class="form-check form-check-inline conversion-form__data-permissions-field">
+                                        <div class="custom-check custom-check--light custom-check--checkbox"><input
+                                                type="checkbox" class="checkable" value="true" name="dataPermissions">
+                                            <div class="custom-check__check"></div><label>Eu li e concordo com
+                                                tudo</label>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                                <footer class="form-conversion__footer pt-1">Ao informar meus dados, eu concordo com a
+                                    <a href="/autoforce-ford/politica-de-privacidade">Política de privacidade</a>.
+                                </footer>
+                                <hr class="my-3"><button
+                                    class="btn button button--large button--primary w-100 mb-0">ESTOU
+                                    INTERESSADO</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    </section>
+</body>
+
+</html>
