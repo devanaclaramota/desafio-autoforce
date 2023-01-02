@@ -1,0 +1,6 @@
+3. Remova o formulário de conversão após clique no whatsapp
+
+Ao clicar em qualquer link do dropdown de 
+Whatsapp, um formulário modal é aberto.
+
+Remova a aparição deste formulário de forma que o usuário seja direcionado para janela do Whatsapp em uma nova aba.
