@@ -1,0 +1,6 @@
+2- Modifique o formulário de "Estou Interessado" disponível em https://testes.autoforce.com.br/autoforce-ford/novos/territory-2022
+
+Adicione os seguintes campos:
+
+- 1 Select com as opções: SUV, Sedã, Hatch e Pickup;
+- 1 Textarea com placeholder "Mensagem".
