@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elemento drop pronto</title>
+   <style>
+    .drop{
+        display: none;
+        visibility: hidden;
+        z-index: 1000;
+    }
+    
+    .show{
+      visibility: visible;
+      display: block; 
+      
+      
+    }
+   </style>
+</head>
+<body>
+    <div class="btn-whats" style ="position: fixed;cursor: pointer; z-index: 1000; bottom: 20px; left: 20px;">
+       <img  src="https://legado.autoforce.com.br/mods/plugins/WhatsApp/img/whatsapp-icone-7.png" alt="botao para whats">
+    
+    <div class="drop">
+       <ul>
+        <li style="list-style: none;padding: 8px; border-bottom: 1px solid black;background-color: lightgrey;" ><a style="color: black;text-decoration: none;;  " target="_blank" href="https://www.youtube.com/">Seminovos: +55 (11) 9999-9999<img style="width: 20px;" src="https://legado.autoforce.com.br/mods/plugins/WhatsApp/img/whatsapp-icone-7.png" alt=""></a></li>
+
+        <li style="list-style: none; padding:8px; border-bottom : 1px solid black ;background-color: lightgrey;" ><a style="color: black;text-decoration: none;" target="_blank" href="https://www.youtube.com/">Seminovos: +55 (11) 9999-9999<img style="width:20px;" src="https://legado.autoforce.com.br/mods/plugins/WhatsApp/img/whatsapp-icone-7.png" alt=""></a></li>
+
+        <li style="list-style: none; padding:8px; border-bottom: 1px solid black;background-color: lightgrey;" ><a style="color: black;text-decoration: none;  " target="_blank" href="https://www.youtube.com/">Seminovos: +55 (11) 9999-9999<img style="width: 20px;" src="https://legado.autoforce.com.br/mods/plugins/WhatsApp/img/whatsapp-icone-7.png" alt=""></a></li>
+
+       </ul>
+       
+    </div>
+    <script>
+        function open(){
+            let img = document.querySelector('.btn-whats');
+        img.addEventListener('click', show)
+        function show(){
+            let drop = document.querySelector('.drop');
+            drop.classList.toggle('show');
+            
+        }
+        
+        }
+        
+    </script>
+    
+
+
+</body>
+</html>
