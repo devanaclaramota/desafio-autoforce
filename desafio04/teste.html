@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+    .drop{
+        display: none;
+        visibility: hidden;
+    }
+    span{
+        background-color: #4ec859;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        height: 100vh;
+        width: 350px;
+    }
+    .show{
+      visibility: visible;
+      display: block;
+    }
+   </style>
+</head>
+<body>
+    <div class="btn-whats" style ="position: fixed;cursor: pointer; z-index: 1000; bottom: 20px; left: 20px;">
+       <img  src="https://legado.autoforce.com.br/mods/plugins/WhatsApp/img/whatsapp-icone-7.png" alt="botao para whats">
+    
+    <div class="drop">
+        <span>Dealer Ford </span>
+       <ul>
+        <li><a href="#">Seminovos: +55 (11) 9999-9999</a><img style="width: 20px;" src="https://legado.autoforce.com.br/mods/plugins/WhatsApp/img/whatsapp-icone-7.png" alt=""></li>
+        <li><a href="#">Serviços: +55 (11) 11111-1111</a></li>
+        <li><a href="#">Central de Vendas: +55 (11) 97386-0742</a></li>
+       </ul>
+       
+    </div>
+    <script>
+        let img = document.querySelector('.btn-whats');
+        img.addEventListener('click', show)
+        function show(){
+            let drop = document.querySelector('.drop');
+            drop.classList.toggle('show');
+            
+        }
+        
+    </script>
+    
+
+
+</body>
+</html>
